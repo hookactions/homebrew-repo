@@ -2,16 +2,16 @@
 class Hkat < Formula
   desc "HookActions command line interface"
   homepage "https://github.com/hookactions/hkat-cli"
-  version "0.1.1"
+  version "0.2.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/hookactions/hkat-cli/releases/download/v0.1.1/hkat_0.1.1_Darwin_x86_64.tar.gz"
-    sha256 "136dd44a1336245e09deba69eece28336f469f4712302ca1b0f56ec20889d728"
+    url "https://github.com/hookactions/hkat-cli/releases/download/v0.2.0/hkat_0.2.0_Darwin_x86_64.tar.gz"
+    sha256 "cd55fdeda5687246e47d5291057e6321e774bbd385ad74bc322acf85c37364d5"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/hookactions/hkat-cli/releases/download/v0.1.1/hkat_0.1.1_Linux_x86_64.tar.gz"
-      sha256 "1cb76879510dec44fba87ffd8bbe3a0f7b6258d76f8b443cc771317487049412"
+      url "https://github.com/hookactions/hkat-cli/releases/download/v0.2.0/hkat_0.2.0_Linux_x86_64.tar.gz"
+      sha256 "9ecfc3649f4ed7e85fa96a625cf9f97a583f1f3df174f2f4687a17cae71f6467"
     end
   end
 
